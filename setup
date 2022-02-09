@@ -1,0 +1,4 @@
+apt update
+apt install python3-pip
+pip3 install rpi-rf
+pip3 install paho-mqtt
