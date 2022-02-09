@@ -1,0 +1,10 @@
+[Unit]
+Description=Panic Button
+
+[Service]
+User=root
+WorkingDirectory=/root
+ExecStart=/usr/bin/env python3 rx.py
+Restart=always
+
+[Install]
